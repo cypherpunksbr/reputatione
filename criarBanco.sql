@@ -16,7 +16,7 @@ CREATE TABLE usuario(
     email VARCHAR(255),
     recovery_mail VARCHAR(255),
     chave TEXT,
-    pontos int,
+    pontos int default 0,
     aprovado boolean
  );
  

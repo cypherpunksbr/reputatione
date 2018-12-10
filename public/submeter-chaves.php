@@ -5,11 +5,11 @@
 </head>
 <body>
 <div id="main">
-  
+
 <?php
 
-require  $_SERVER['DOCUMENT_ROOT'].'/admin/conexao.php';
-require $_SERVER['DOCUMENT_ROOT'].'/admin/credenciais.php';
+require  $_SERVER['DOCUMENT_ROOT'].'/reputatione/admin/conexao.php';
+require $_SERVER['DOCUMENT_ROOT'].'/reputatione/admin/credenciais.php';
 
 
 # FUNÇÃO : Persiste os dados do usuário em banco de dados.
