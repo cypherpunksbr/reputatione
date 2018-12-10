@@ -12,7 +12,9 @@ USE info_usuarios;
 CREATE TABLE usuario(
     id int  PRIMARY KEY NOT NULL AUTO_INCREMENT,
     nick VARCHAR(255),
+    senha VARCHAR(255),
     email VARCHAR(255),
+    recovery_mail VARCHAR(255),
     chave TEXT,
     pontos int,
     aprovado boolean
